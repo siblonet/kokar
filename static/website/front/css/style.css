@@ -1197,6 +1197,9 @@ p:last-child {
     /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ left menu @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
     /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ left menu @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 
+    .closed {
+        display: none !important;
+    }
 
     .classy-menu {
         background-color: #312b2b2a;
@@ -1400,7 +1403,12 @@ p:last-child {
         left: 0;
     }
 
-
+    .half-curved-line {
+        height: 300px !important;
+        border-radius: 0 0 50% 50%;
+        overflow: hidden !important;
+    }
+    
 
     /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ left menu ends @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
     /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ left menu ends @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
@@ -8216,17 +8224,5 @@ blockquote::after,
     height: 200px;
     z-index: 33;
     border-radius: 0 0 50% 50%;
-}
-
-.linkedin {
-    align-self: center !important;
-    text-align: center !important;
-    justify-content: center !important;
-    align-items: center !important;
-    width: 100% !important;
-    background-color: transparent;
-    padding-top: 50px;
-    padding-bottom: 20px;
-    padding-left: 40% !important;
     overflow: hidden !important;
 }
