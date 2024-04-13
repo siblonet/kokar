@@ -9,15 +9,17 @@ jQuery(function ($) {
     }, 5000);
 
     jQuery('.mean-menu').meanmenu({ meanScreenWidth: "991" });
-   /* $(".others-option-for-responsive .dot-menu").on("click", function () {
-        $(".others-option-for-responsive .containerb .containerb").toggleClass("active");
-    });*/
+    /* $(".others-option-for-responsive .dot-menu").on("click", function () {
+         $(".others-option-for-responsive .containerb .containerb").toggleClass("active");
+     });*/
 
     $(".others-option-for-responsive .dot-menu").on("click", function () {
         $(".classy-menu").toggleClass("menu-on");
-        console.log("togled");
     });
 
+    $(".classy-menu").on("click", function () {
+        $(".classy-menu").toggleClass("menu-on");
+    });
     $(function () {
         $('.default-btn').on('mouseenter', function (e) {
             var parentOffset = $(this).offset(), relX = e.pageX - parentOffset.left, relY = e.pageY - parentOffset.top; $(this).find('span').css({ top: relY, left: relX })

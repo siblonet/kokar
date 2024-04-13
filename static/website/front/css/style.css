@@ -1199,21 +1199,22 @@ p:last-child {
 
 
     .classy-menu {
-        background-color: #ffffff;
+        background-color: #312b2b2a;
         display: block;
         position: fixed;
-        left: -340px;
+        left: -110%;
         z-index: 3333;
-        width: 320px;
+        width: 100%;
         height: 100%;
         -webkit-transition-duration: 500ms;
         transition-duration: 500ms;
     }
 
     .classy-menu .covertraitor {
-        width: 100%;
+        width: 80%;
         z-index: 3344;
         height: 100%;
+        background-color: #ffffff;
         box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
     }
 
