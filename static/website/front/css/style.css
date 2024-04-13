@@ -855,6 +855,10 @@ p:last-child {
     margin-top: 0
 }
 
+.classy-menu {
+    display: none;
+}
+
 .strax-nav .navbar .navbar-nav .nav-item .mega-dropdown-menu {
     width: 635px;
     padding: 0 10px 5px;
@@ -1142,7 +1146,7 @@ p:last-child {
 
     .strax-responsive-nav .logo {
         position: relative;
-        width: 50%;
+        width: 100%;
         z-index: 999;
         font-weight: 700;
         font-size: 25px
@@ -1168,6 +1172,251 @@ p:last-child {
     .others-option-for-responsive {
         display: block
     }
+
+    /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ left menu @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+    /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ left menu @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+    /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ left menu @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+    /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ left menu @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+    /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ left menu @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+    /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ left menu @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+    /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ left menu @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+    /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ left menu @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+    /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ left menu @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+    /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ left menu @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+    /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ left menu @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+    /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ left menu @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+    /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ left menu @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+    /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ left menu @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+    /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ left menu @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+    /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ left menu @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+    /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ left menu @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+    /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ left menu @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+    /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ left menu @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+    /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ left menu @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+    /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ left menu @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+    /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ left menu @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+    /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ left menu @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+
+    .classy-menu {
+        background-color: #ffffff;
+        display: block;
+        position: fixed;
+        left: -340px;
+        z-index: 3333;
+        width: 320px;
+        height: 100%;
+        -webkit-transition-duration: 500ms;
+        transition-duration: 500ms;
+    }
+
+    .classy-menu .covertraitor {
+        width: 100%;
+        z-index: 3344;
+        height: 100%;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .classy-menu .covertraitor .mon-espace {
+        width: 100%;
+        z-index: 4444;
+        height: 35px;
+        margin-top: -60px;
+        position: absolute;
+        background-color: transparent;
+        align-items: center;
+        text-align: center;
+        padding: 0 15px 0 15px;
+    }
+
+    .classy-menu .covertraitor .mon-espace p {
+        color: #ffffff;
+        align-self: center;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .classy-menu .covertraitor ul {
+        list-style-type: none;
+        width: 100%;
+        padding: 0;
+        align-items: center !important;
+        justify-content: center;
+    }
+
+    .classy-menu .covertraitor ul .sign-login {
+        border-radius: 7px;
+        border-width: 1px;
+        width: 100%;
+        padding: 10px 0;
+        margin: 10px 0;
+        border-style: solid;
+        border-color: #105d6a;
+        background-color: #105d6a;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        touch-action: manipulation;
+        cursor: pointer;
+    }
+
+    .classy-menu .covertraitor ul .sign-login .closea {
+        justify-content: space-evenly;
+        display: flex;
+        align-items: center;
+    }
+
+    .classy-menu .covertraitor ul .sign-login .closea .spaa {
+        width: 40px;
+    }
+
+    .classy-menu .covertraitor ul .sign-login .closea a {
+        color: #ffffff;
+    }
+
+    .classy-menu .covertraitor ul .sign-login .closea i {
+        color: #ffffff;
+    }
+
+    .classy-menu .covertraitor ul .sign-login:hover {
+        background-color: #e9e6e6da;
+        text-decoration: none;
+        transition-duration: 0.1s;
+    }
+
+    .classy-menu .covertraitor ul .sign-login:hover .closea a,
+    .classy-menu .covertraitor ul .sign-login:hover .closea i {
+        color: #105d6a;
+    }
+
+    .classy-menu .covertraitor ul .login-sign {
+        border-radius: 7px;
+        border-width: 1px;
+        width: 100%;
+        padding: 10px 0;
+        margin: 10px 0;
+        border-style: solid;
+        align-self: center;
+        border-color: #81136686;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        touch-action: manipulation;
+        cursor: pointer;
+    }
+
+    .classy-menu .covertraitor ul .login-sign .closea {
+        justify-content: space-evenly;
+        display: flex;
+        padding-left: 25px;
+        align-items: center;
+    }
+
+    .classy-menu .covertraitor ul .login-sign .closea .spaa {
+        width: 40px;
+    }
+
+    .classy-menu .covertraitor ul .login-sign .closea a {
+        color: #b30086;
+    }
+
+    .classy-menu .covertraitor ul .login-sign .closea i {
+        color: #b30086;
+    }
+
+    .classy-menu .covertraitor ul .login-sign:hover {
+        background-color: #b30086;
+        text-decoration: none;
+        transition-duration: 0.1s;
+    }
+
+    .classy-menu .covertraitor ul .login-sign:hover .closea a,
+    .classy-menu .covertraitor ul .login-sign:hover .closea i {
+        color: #ffffff;
+    }
+
+    .classy-menu .covertraitor ul .divabana {
+        height: 76px;
+    }
+
+    .classy-menu .covertraitor ul .activ {
+        width: 100%;
+        padding: 10px;
+        background-color: #fff;
+        text-align: center;
+        touch-action: manipulation;
+        cursor: pointer;
+    }
+
+    .classy-menu .covertraitor ul .activ .fisrnaa {
+        align-self: center;
+        color: #105d6a !important;
+        font-weight: bold;
+    }
+
+    .classy-menu .covertraitor ul .activ:hover {
+        background-color: #72085733;
+        text-decoration: none;
+        transition-duration: 0.1s;
+    }
+
+    .classy-menu .covertraitor ul .activcc {
+        width: 60%;
+        padding: 10px;
+        margin: 10px 0 10px 55px;
+        border-radius: 7px;
+        background-color: #f7030356;
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+        touch-action: manipulation;
+        cursor: pointer;
+    }
+
+    .classy-menu .covertraitor ul .activcc .fisrnaa {
+        color: #f10909 !important;
+    }
+
+    .classy-menu .covertraitor ul .activcc .fisriconc {
+        background-color: #f7030356;
+        border-radius: 7px;
+        padding: 5px;
+    }
+
+    .classy-menu .covertraitor ul .activcc .fisriconc i {
+        color: #f10909;
+        font-weight: bold;
+        font-size: large;
+    }
+
+    .classy-menu .covertraitor ul .activcc:hover {
+        background-color: #72085733;
+        text-decoration: none;
+        transition-duration: 0.1s;
+    }
+
+    .menu-on {
+        left: 0;
+    }
+
+
+
+    /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ left menu ends @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+    /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ left menu ends @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+    /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ left menu ends @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+    /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ left menu ends @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+    /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ left menu ends @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+    /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ left menu ends @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+    /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ left menu ends @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+    /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ left menu ends @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+    /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ left menu ends @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+    /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ left menu ends @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+    /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ left menu ends @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+    /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ left menu ends @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+    /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ left menu ends @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+    /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ left menu ends @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+    /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ left menu ends @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
 }
 
 .main-banner {
@@ -1953,10 +2202,20 @@ p:last-child {
     font-style: normal
 }
 
+.leftmanu {
+    font-family: "Concert One", sans-serif;
+    font-size: 20px;
+    font-style: normal
+}
+
 .conne-font p {
     font-size: 17px;
 }
 
+.sociab {
+    height: 35px;
+    width: 35px;
+}
 
 .about-inner-content .content h2 {
     margin-bottom: 0;
@@ -7957,7 +8216,8 @@ blockquote::after,
     z-index: 33;
     border-radius: 0 0 50% 50%;
 }
-.linkedin{
+
+.linkedin {
     align-self: center !important;
     text-align: center !important;
     justify-content: center !important;
