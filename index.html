@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="static/website/front/css/magnific-popup.min.css">
     <link rel="stylesheet" href="static/website/front/css/style.css">
     <link rel="stylesheet" href="static/website/front/css/responsive.css">
+    <link rel="stylesheet" href="static/website/front/css/livechat.css">
     <link rel="icon" type="image/png" href="static/website/front/img/love.png">
     <title>John Kokar</title>
 </head>
@@ -398,7 +399,40 @@
 
     </section>
 
+    <div id='whatsapp-chat' class='hidea'>
+        <div class='header-chata'>
+            <div class='get-newa hidea'>
+                <div id='get-labela'>
+                    <div class="offline"></div>
+                    <img src="./static/avatay.png" alt="">
+                </div>
+                <div id='get-namaa'>
+                    <span class='chat-namaa'>Offline</span>
 
+                </div>
+            </div>
+        </div>
+
+        <div class='start-chata hidea'>
+            <div class='first-msga' id="first-msga">
+                <span class="spanf">Hello! I am not online at the moment.</span>
+
+                <span class="spanf">Bonjour! je ne suis pas en line pour l'instant</span>
+
+
+            </div>
+            <div class='blanter-msga'>
+                <textarea name="notes" id="chat-inputa" cols="20" rows="2" placeholder="Saisissez-ici votre message"
+                    class="form-control ttextarea" maxlength='120'></textarea>
+
+                <a class="aa" id='send-ita'>Send</a>
+            </div>
+        </div>
+        <div id='get-numbera'>
+            098765443
+        </div>
+        <a class='close-chata aa' style="cursor: pointer;">×</a>
+    </div>
     <footer class="footer-area">
         <div class="half-curved-line">
 
@@ -433,32 +467,32 @@
                     <div class="single-footer-widget">
                         <h3>Get in touch</h3>
                         <ul class="services-list">
-                           
+
                             <li class="activ">
                                 <a class="fisrnaa" href="https://www.linkedin.com/in/princesilence">
                                     <img class="bx sociab" src="./static/linkdi.png" alt="LinkedIn">
                                     LinkedIn</a>
                             </li>
-            
+
                             <li class="activ">
                                 <a class="fisrnaa">
                                     <img class="bx sociab" src="./static/github1.png" alt="GitHub">
                                     GitHub</a>
                             </li>
-            
-            
+
+
                             <li class="activ">
                                 <a class="fisrnaa" href="https://stackoverflow.com/users/13079331/prince-d-taylor">
                                     <img class="bx sociab" src="./static/stack.png" alt="Overflow">
                                     Stack Overflow</a>
                             </li>
-            
+
                             <li class="activ">
                                 <a class="fisrnaa" href="https://discord.com/channels/@me">
                                     <img class="bx sociab" src="./static/discord.png" alt="Discord">
                                     Discord</a>
                             </li>
-            
+
                             <li class="activ">
                                 <a class="fisrnaa" href="https://app.slack.com/client/T0292STBB8X">
                                     <img class="bx sociab" src="./static/slack.png" alt="Stack">
@@ -476,8 +510,8 @@
                                     <img class="bx sociab" src="./static/reddit.png" alt="Reddit">
                                     Reddit</a>
                             </li>
-            
-            
+
+
                             <li class="activ">
                                 <a class="fisrnaa" href="https://fr.quora.com/profile/Prince-D-Taylor">
                                     <img class="bx sociab" src="./static/quora.png" alt="quora">
@@ -510,7 +544,7 @@
                             </li>
                             <li>Phone: <a href="tel:+2250717326418">+225 07 17 32 64 18</a></li>
                         </ul>
-                        
+
                     </div>
                 </div>
             </div>
@@ -525,6 +559,9 @@
 
 
     <div class="go-top"><i class="bx bx-chevron-up"></i></div>
+    <div class="live-chat" id="live-chat">
+        <img src="./static/help.png" alt="help">
+    </div>
     <script>
         document.getElementById("currentYear").textContent = new Date().getFullYear();
     </script>
@@ -540,6 +577,34 @@
     <script src="static/website/front/js/jquery.ajaxchimp.min.js"></script>
     <script src="static/website/front/js/main.js"></script>
     <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+    <script>
+        const livecha = document.getElementById('live-chat');
+        setTimeout(() => {
+            livecha.classList.add('active');
+        }, 7000);
+
+    </script>
+
+    <script>
+
+        $(document).on("click", ".live-chat", async function () {
+            const firstMsga = document.getElementById("first-msga");
+            const asd = $(".tuesla");
+
+            $("#whatsapp-chat").addClass("showa").removeClass("hidea");
+            $("#whatsapp-chat").addClass("tuesla");
+            document.getElementById("get-numbera").innerHTML = $(this).children(".my-numbera").text();
+            $(".start-chata, .get-newa").addClass("showa").removeClass("hidea");
+            $(".home-chata, .head-homea").addClass("hidea").removeClass("showa");
+
+
+        });
+        $(document).on("click", ".close-chata", function () {
+            $("#whatsapp-chat").addClass("hidea").removeClass("showa");
+            $("#whatsapp-chat").removeClass("tuesla")
+
+        });
+    </script>
 </body>
 
 
