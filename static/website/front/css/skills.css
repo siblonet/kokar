@@ -1,0 +1,100 @@
+.skills {
+    width: 100%;
+}
+
+.javascript {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+}
+
+.lineexpo {
+    position: relative;
+    width: 300px;
+    height: 5px;
+    background-color: #cccccc;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+
+.lineunfill {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #cccccc;
+}
+
+.linefill {
+    position: absolute;
+    height: 100%;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.colorts {
+    background-color: #008cff;
+}
+
+
+.colorjs {
+    background-color: gold;
+}
+
+.colorht {
+    background: linear-gradient(90deg, orangered 25%, #008cff 25%, #008cff 50%, rgb(52, 15, 95) 50%, rgb(52, 15, 95) 75%, #cd6799 75%);
+}
+
+.colorjq {
+    background-color: #0d4e83;
+}
+
+.colorpy {
+    background-color: #007fbb;
+}
+
+.colorrb {
+    background-color: #bb0010;
+}
+
+
+/* skill sector */
+
+
+.lineexpoin {
+    position: relative;
+    width: 200px;
+    height: 5px;
+    background-color: #cccccc;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+
+.textNames {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.colorhts {
+    background-color: orangered;
+}
+
+.colorrn {
+    background-color: #07ecce;
+}
+
+.colorc {
+    background-color: #2f0572;
+}
+
+
+.colorej {
+    background-color: #07ddec;
+}
