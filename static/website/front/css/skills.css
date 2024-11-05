@@ -67,7 +67,7 @@
 
 .lineexpoin {
     position: relative;
-    width: 200px;
+    width: 170px;
     height: 5px;
     background-color: #cccccc;
     border-radius: 5px;
@@ -97,4 +97,9 @@
 
 .colorej {
     background-color: #07ddec;
+}
+
+
+.colornj {
+    background-color: #E0234E;
 }
