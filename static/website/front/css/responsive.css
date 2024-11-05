@@ -1478,7 +1478,34 @@
         text-align: center;
         margin-top: 18px
     }
+
+    .onoff {
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: transparent;
+        height: 500px;
+        right: 0;
+        bottom: 0;
+        -webkit-animation: 501ms ease-in-out 0.5s normal none 1 running fadeInDown;
+        animation: 501ms ease-in-out 0.5 normal none 1 running fadeInDown;
+    }
 }
+
+@media only screen and (min-width:768px) and (max-width:992px) {
+    .onoff {
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: transparent;
+        height: 600px;
+        right: 0;
+        bottom: 0;
+        -webkit-animation: 501ms ease-in-out 0.5s normal none 1 running fadeInDown;
+        animation: 501ms ease-in-out 0.5 normal none 1 running fadeInDown;
+    }
+}
+
 
 @media only screen and (min-width:576px) and (max-width:767px) {
     .main-banner-content .content {

@@ -1,7 +1,12 @@
 jQuery(function ($) {
     'use strict'; $(window).on('scroll', function () {
-        if ($(this).scrollTop() > 120) { $('.navbar-area').addClass("is-sticky"); }
-        else { $('.navbar-area').removeClass("is-sticky"); }
+        if ($(this).scrollTop() > 120) {
+            $('.navbar-area').addClass("is-sticky");
+            $('.spacefored').addClass("onoff");
+        } else {
+            $('.navbar-area').removeClass("is-sticky");
+            $('.spacefored').removeClass("onoff");
+        }
     });
     setTimeout(() => {
         $('.preloader-area').fadeOut();
